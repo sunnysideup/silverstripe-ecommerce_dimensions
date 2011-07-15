@@ -20,7 +20,7 @@ class EcommerceDimensionsDecorator extends DataObjectDecorator {
 				$sourceClass = "EcommerceDimension",
 				$fieldList = null,
 				$detailFormFields = null,
-				$sourceFilter = "",
+				$sourceFilter = "ProductID = ".$this->owner->ID,
 				$sourceSort = "",
 				$sourceJoin = ""
 			)
