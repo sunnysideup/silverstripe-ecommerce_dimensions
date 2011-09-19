@@ -11,7 +11,7 @@ class EcommerceDimension extends DataObject {
 	public static $has_one = array(
 		"Product" => "Product"
 	);
-	
+
 	public static $singular_name = "Measurement";
 
 	public static $plural_name = "Measurements";
@@ -20,12 +20,15 @@ class EcommerceDimension extends DataObject {
 
 	public static $searchable_fields = array("Measure" => "PartialMatchFilter", "Unit" => "PartialMatchFilter", "Measure");
 
-	public static $casting = array("Title" => "Text"); 
+	public static $casting = array(
+		"Title" => "Text"
+	);
 
-	function Title() {
+	function Title() {return $this->getTitle();}
+	function getTitle() {
 		return $this->Measurement.": ".$this->Measure.$this->Unit;
 	}
-	
+
 	public static $field_labels = array("Measurement" => "Measurement (e.g. Width)", "Measure" => "Measure (e.g. 100)", "Unit" => "Unit (e.g. cm)");
 
 	public static $summary_fields = array("Measurement" => "Measurement", "Measure" => "Measure", "Unit" => "Unit");
