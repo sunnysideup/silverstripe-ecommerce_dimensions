@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe/ecommerce_dimensions",
+	"name": "sunnysideup/ecommerce_dimensions",
 	"type": "silverstripe-module",
 	"description": "work out the dimensions of products for delivery costings based on size (and other applications)",
 	"homepage": "http://www.silverstripe-ecommerce.com",
