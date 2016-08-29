@@ -1,21 +1,25 @@
 {
-	"name": "sunnysideup/ecommerce_dimensions",
-	"type": "silverstripe-module",
-	"description": "work out the dimensions of products for delivery costings based on size (and other applications)",
-	"homepage": "http://www.silverstripe-ecommerce.com",
-	"keywords": ["ecommerce", "e-commerce", "shop", "dimensions", "silverstripe"],
-	"license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
-	"authors":[
-		{
-			"name": "Nicolaas Francken",
-			"homepage": "https://github.com/sunnysideup",
-			"email" : "modules@sunnysideup.co.nz",
-			"role" : "lead developer"
-		}
-	],
-	"require":{
-		"php": ">=5.3.2",
-		"silverstripe/framework": "~2.4",
-		"sunnysideup/ecommerce": "~2.4"
-	}
+    "name": "sunnysideup/ecommerce_dimensions",
+    "type": "silverstripe-module",
+    "description": "work out the dimensions of products for delivery costings based on size (and other applications)",
+    "keywords": [
+        "ecommerce",
+        "e-commerce",
+        "shop",
+        "dimensions",
+        "silverstripe"
+    ],
+    "license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "silverstripe/framework": "~2.4",
+        "sunnysideup/ecommerce": "~2.4"
+    }
 }
